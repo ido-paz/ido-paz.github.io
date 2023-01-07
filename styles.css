@@ -1,13 +1,18 @@
 :root {
-  --small: 5%;
+  --small: 2%;
   --medium: 5%;
   --grayColor: lightgray;
   --border: 1px solid black;
+}
+@font-face {
+    font-family:os ;
+    src: url(./OpenSans-VariableFont_wdth,wght.ttf);
 }
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: os;  
 }
 body {
   display: flex;
