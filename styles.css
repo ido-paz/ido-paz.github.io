@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+body > * {
+  margin: 5%;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+main > section {
+  width: 50%;
+  padding: 1%;
+}
+
+main > section:nth-child(2){
+    border-left: 1px solid black;
+}
+
