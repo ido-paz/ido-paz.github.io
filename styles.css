@@ -1,6 +1,6 @@
 :root {
   --small: 2%;
-  --medium: 5%;
+  --medium: 10%;
   --grayColor: lightgray;
   --border: 1px solid black;
 }
@@ -34,7 +34,12 @@ main {
 h2{
     margin-bottom: var(--small);
 }
-
+a{
+    text-decoration: none;
+}
+footer img{
+    width: 1em;
+}
 main > section {
   padding: var(--small);
   border-bottom: var(--border);
