@@ -1,0 +1,47 @@
+@import url(base.css);
+
+body {
+  color: white;
+  background-image: url(./yavneel.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: strech;
+}
+main {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(100, 100, 100, 0.5);
+  align-items: center;
+  padding: var(--medium);
+  margin-top: var(--small);
+  margin-left: var(--small);
+  margin-right: var(--small);
+}
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+section {
+  padding-top: var(--small);
+  padding-bottom: var(--small);
+  border-top: var(--border);
+  border-bottom: var(--border);
+}
+
+@media (min-width: 768px) {
+  /*tablets and desktops*/
+  main {
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(100, 100, 100, 0.5);
+    align-items: center;
+    padding:var(--small);
+    margin-top: var(--small);
+    margin-left: var(--big);
+    margin-right: var(--big);
+  }
+}
