@@ -16,24 +16,31 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-h1{
+h1 {
   display: flex;
   align-items: center;
+  font-size: x-large;
 }
-h1 img{
+h2 {
+  font-size: large;
+}
+h1>span{
+  margin-left: 1%;
+}
+h1 img {
   display: none;
 }
-h2{
-    margin-bottom: var(--small);
+h2 {
+  margin-bottom: var(--small);
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-footer >span{
+footer > span {
   display: none;
 }
-footer img{
-    width: 1em;
+footer img {
+  width: 1em;
 }
 main > section {
   padding: var(--small);
@@ -52,16 +59,16 @@ main > section {
 
 @media (min-width: 768px) {
   /*tablets and desktops*/
-  body{
+  body {
     font-size: var(--bigFontSize);
   }
-  h1 img{
+  h1 img {
     display: inline;
     width: 3em;
     border: var(--border);
     border-radius: 50%;
   }
-  footer >span{
+  footer > span {
     display: inline;
   }
   main > section {
