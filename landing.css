@@ -39,7 +39,9 @@ section {
   border-top: var(--border);
   border-bottom: var(--border);
 }
-
+.responsibility{
+  list-style-type:' ★ ';
+}
 @media (min-width: 768px) {
   /*tablets and desktops*/
   html,body{
