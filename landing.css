@@ -41,9 +41,9 @@ section {
   border-top: var(--border);
   border-bottom: var(--border);
 }
-footer > span {
+/* footer > span {
   display: block;
-}
+} */
 .responsibility {
   list-style-type: "* ";
 }
