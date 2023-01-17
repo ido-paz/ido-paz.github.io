@@ -1,19 +1,42 @@
 :root {
-    --small: 2%;
-    --medium: 3%;
-    --big: 10%;
-    --grayColor: lightgray;
-    --border: 1px solid black;
-    --baseFontSize:1em;
-    --bigFontSize:1.1em;
+  --small: 1%;
+  --medium: 3%;
+  --big: 10%;
+  --grayColor: lightgray;
+  --border: 1px solid black;
+  --baseFontSize: 0.9em;
+  --normalFontSize: 1em;
+  --bigFontSize: 1.1em;
+}
+@keyframes changeColor {
+  0% {
+    color: initial;
   }
-  @font-face {
-      font-family:os ;
-      src: url(./OpenSans-VariableFont_wdth,wght.ttf);
+  /* 25% {
+    color: blue;
+  } */
+  50% {
+    color: blue;
   }
-  * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: os;  
+  /* 75% {
+    color: red;
   }
+  90% {
+    color: blue;
+  } */
+  100% {
+    color: initial;
+  }
+}
+
+@font-face {
+  font-family: os;
+  src: url(./OpenSans-VariableFont_wdth_wght.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: os;
+}

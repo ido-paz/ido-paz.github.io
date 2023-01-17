@@ -1,4 +1,5 @@
 @import url(base.css);
+
 body {
   display: flex;
   flex-direction: column;
@@ -24,7 +25,7 @@ h1 {
 h2 {
   font-size: large;
 }
-h1>span{
+h1 > span {
   margin-left: 1%;
 }
 h1 img {
@@ -36,25 +37,37 @@ h2 {
 a {
   text-decoration: none;
 }
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
 footer > span {
-  display: none;
+  font-size: xx-small;
 }
 footer img {
   width: 1em;
 }
+
 main > section {
   padding: var(--small);
   border-bottom: var(--border);
 }
 
+main > section:hover {
+  background-color: lightslategray;
+
+  color: white;
+  animation-name: changeColor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.techstack,
 .introduction {
   width: 100%;
+}
+.introduction {
   font-size: larger;
   background-color: var(--grayColor);
-}
-.teaching:hover,
-.developing:hover {
-  background-color: lightslategray;
 }
 
 @media (min-width: 768px) {

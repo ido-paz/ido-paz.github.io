@@ -45,7 +45,7 @@ footer > span {
   display: block;
 }
 .responsibility {
-  list-style-type: " ★ ";
+  list-style-type: "* ";
 }
 @media (min-width: 768px) {
   /*tablets and desktops*/
