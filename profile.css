@@ -29,7 +29,10 @@ h1 > span {
   margin-left: 1%;
 }
 h1 img {
-  display: none;
+  /* display: none; */
+    width: 2em;
+    border: var(--border);
+    border-radius: 50%;
 }
 h2 {
   margin-bottom: var(--small);
@@ -76,10 +79,10 @@ main > section:hover {
     font-size: var(--bigFontSize);
   }
   h1 img {
-    display: inline;
-    width: 3em;
-    border: var(--border);
-    border-radius: 50%;
+    width: 4em;
+  }
+  footer > span {
+    font-size: unset;
   }
   footer > span {
     display: inline;
