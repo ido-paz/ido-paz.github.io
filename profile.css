@@ -3,12 +3,6 @@
 body {
   display: flex;
   flex-direction: column;
-  font-size: var(--baseFontSize);
-}
-body > * {
-  margin-left: var(--medium);
-  margin-right: var(--medium);
-  margin-bottom: var(--small);
 }
 body:nth-child(1) {
   margin-top: var(--medium);
@@ -20,32 +14,35 @@ main {
 h1 {
   display: flex;
   align-items: center;
-  font-size: x-large;
 }
-h2 {
-  font-size: large;
-}
+
 h1 > span {
   margin-left: 1%;
+
+  animation-name: changeColor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+h1 >span:nth-child(3),span:nth-child(4){
+  display: none;
 }
 h1 img {
   /* display: none; */
     width: 2em;
     border: var(--border);
+    border-style: dashed;
     border-radius: 50%;
+
+    animation-name: changeBorderColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
 }
 h2 {
   margin-bottom: var(--small);
 }
 a {
   text-decoration: none;
-}
-ul {
-  list-style-type: circle;
-  list-style-position: inside;
-}
-footer > span {
-  font-size: xx-small;
 }
 footer img {
   width: 1em;
@@ -55,7 +52,7 @@ main > section {
   padding: var(--small);
   border-bottom: var(--border);
 }
-
+/* 
 main > section:hover {
   background-color: lightslategray;
 
@@ -63,7 +60,7 @@ main > section:hover {
   animation-name: changeColor;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-}
+} */
 .techstack,
 .introduction {
   width: 100%;
@@ -75,16 +72,10 @@ main > section:hover {
 
 @media (min-width: 768px) {
   /*tablets and desktops*/
-  body {
-    font-size: var(--bigFontSize);
-  }
   h1 img {
     width: 4em;
   }
-  footer > span {
-    font-size: unset;
-  }
-  footer > span {
+  h1 >span:nth-child(3),span:nth-child(4){
     display: inline;
   }
   main > section {

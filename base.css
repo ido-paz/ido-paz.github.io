@@ -12,20 +12,23 @@
   0% {
     color: initial;
   }
-  /* 25% {
-    color: blue;
-  } */
   50% {
     color: blue;
   }
-  /* 75% {
-    color: red;
-  }
-  90% {
-    color: blue;
-  } */
   100% {
     color: initial;
+  }
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    border-style:solid;
+  }
+  50% {
+    border-style:dashed;
+  }
+  100% {
+    border-style:solid;
   }
 }
 
@@ -39,4 +42,46 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: os;
+}
+
+body {
+  font-size: var(--baseFontSize);
+}
+body > * {
+  margin-left: var(--medium);
+  margin-right: var(--medium);
+  margin-bottom: var(--small);
+}
+
+a {
+  text-decoration: none;
+  color:blue;
+}
+h1 {
+  font-size: x-large;
+}
+h2 {
+  font-size: large;
+}
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+footer > span {
+  font-size: xx-small;
+}
+
+@media (min-width: 768px) {
+  /*tablets and desktops*/
+  body {
+    font-size: var(--bigFontSize);
+  }
+
+  footer > span {
+    font-size: unset;
+  }
+  footer > span {
+    display: inline;
+  }
 }
