@@ -6,7 +6,7 @@ main {
 }
 body {
   color: white;
-  background-image: url(./yavneel.jpeg);
+  background-image: url(/images/yavneel.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: strech;
