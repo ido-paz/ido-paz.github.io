@@ -41,7 +41,7 @@ footer img {
   width: 1em;
 }
 
-main > section,p {
+main > section {
   padding: var(--small);
   border-bottom: var(--border);
 }

@@ -1,2 +1,7 @@
 @import url(profile.css);
 
+
+main > p {
+  padding: var(--small);
+  border-bottom: var(--border);
+}
