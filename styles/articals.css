@@ -1,27 +1,2 @@
-@import url(base.css);
-
-body:nth-child(1) {
-  margin-top: var(--medium);
-}
-
-h1 > span {
-  margin-left: 1%;
-}
-h1 img {
-  /* display: none; */
-    width: 2em;
-    border: var(--border);
-    border-radius: 50%;
-}
-h2 {
-  margin-bottom: var(--small);
-}
-footer img {
-  width: 1em;
-}
-
-main > section {
-  padding: var(--small);
-  border-bottom: var(--border);
-}
+@import url(profile.css);
 

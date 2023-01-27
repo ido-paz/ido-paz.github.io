@@ -4,7 +4,7 @@
   --big: 10%;
   --grayColor: lightgray;
   --border: 1px solid black;
-  --baseFontSize: 0.9em;
+  --baseFontSize: 0.7em;
   --normalFontSize: 1em;
   --bigFontSize: 1.1em;
 }
@@ -70,18 +70,4 @@ ul {
 }
 footer > span {
   font-size: xx-small;
-}
-
-@media (min-width: 768px) {
-  /*tablets and desktops*/
-  body {
-    font-size: var(--bigFontSize);
-  }
-
-  footer > span {
-    font-size: unset;
-  }
-  footer > span {
-    display: inline;
-  }
 }
