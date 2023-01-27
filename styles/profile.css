@@ -9,6 +9,7 @@ body:nth-child(1) {
 }
 main {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 h1 {
