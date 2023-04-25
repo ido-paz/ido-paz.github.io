@@ -15,7 +15,7 @@ body {
 main {
   display: flex;
   flex-flow: column;
-  background-color: rgba(100, 100, 100, 0.5);
+  background-color: rgba(100, 100, 100, 0.7);
   align-items: stretch;
   padding: var(--medium);
   margin-top: var(--small);
@@ -57,7 +57,7 @@ section {
     height: auto;
     display: flex;
     flex-flow: column;
-    background-color: rgba(100, 100, 100, 0.5);
+    background-color: rgba(100, 100, 100, 0.7);
     align-items: center;
     padding: var(--small);
     margin-top: var(--small);
